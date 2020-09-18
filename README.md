@@ -2,7 +2,7 @@
 
 As funções implantadas no projeto foram feitas para auxiliar na construção do modelos estatísticos, seja modelos mais simples como uma Regressão Logística ou para algoritmos mais avançados como xgboost ou lightGBM.
 
-A baixo mostro passo a passo das mínimas análises que entendo que são necessárias para a construção de um modelo completo.
+A baixo mostro passo a passo quais são as análises mínimas para a construção de um modelo de forma completa.
 
 ## Passos a passo
 
