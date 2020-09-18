@@ -6,14 +6,14 @@ A baixo mostro passo a passo das mínimas análises que entendo que são necess�
 
 ## Passos a passo
 
-### Identificação do tipo de informação (metadados)
+### Identificação do tipo de informação (metadados) <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
 - Numericos: 
 - Categoricos:
 
-### Descritiva das informações (Estatísticas) <p style="color:red">This is a paragraph.</p>
+### Descritiva das informações (Estatísticas) <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
-### Transformações das variáveis (Categoricas) <p style="color:red">This is a paragraph.</p>
+### Transformações das variáveis (Categoricas) <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
 - WOE
 - Dummies
