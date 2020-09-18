@@ -11,7 +11,7 @@ A baixo mostro passo a passo das mínimas análises que entendo que são necess�
 - Numericos: 
 - Categoricos:
 
-### Descritiva das informações (Estatísticas) <span style="color:blue">EM CONSTRUÇÃO</span>
+### Descritiva das informações (Estatísticas) <span style="color:red">some This is Red Bold text</span>
 
 ### Transformações das variáveis (Categoricas) <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
