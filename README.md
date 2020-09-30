@@ -15,8 +15,10 @@ A baixo mostro passo a passo quais são as análises mínimas para a construçã
 
 ### Transformações das variáveis (Categoricas) <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
-- WOE
-- Dummies
+- Função:
+> WOE
+> Dummies
+
 
 ### Seleção de variáveis <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
