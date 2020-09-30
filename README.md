@@ -8,22 +8,17 @@ A baixo mostro passo a passo quais são as análises mínimas para a construçã
 
 ### Identificação do tipo de informação (metadados) 
 
-- Função: 
-
 > ajuste_metadados.py 
 
 Objetivo: Identificar os tipos de variáveis que temos no banco da dados, esse é um passo importante pois as maiorias de algoritmos de ML no python só utilizam dados numericos para a crição do modelo. Caso seja identificado alguma variável categorica teremos que fazer algum tipo de tranformação nessas categorias.
 
 ### Descritiva das informações (Estatísticas) <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
-### Transformações das variáveis (Categoricas) <font collor="#ff0000"> EM CONSTRUÇÃO </font>
-
-- Funções:
+### Transformações das variáveis (Categoricas) 
 
 > get_woe_categoric.py
 
 > get_dummie.py
-
 
 ### Seleção de variáveis <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
