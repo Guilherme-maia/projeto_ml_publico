@@ -22,9 +22,11 @@ Objetivo: Identificar os tipos de variáveis que temos no banco da dados, esse �
 
 ### Seleção de variáveis <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
-- Univariada (Concentração)
-- Bivariada (Information Value)
-- Multivariada (Recursive Feature Eliminate)
+> univariada.py: Verifica a concentração máxima em um valor espefícico do banco de dados
+
+> Bivariada (Information Value)
+
+> Multivariada (Recursive Feature Eliminate)
 
 ### Ajuste de missing <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
