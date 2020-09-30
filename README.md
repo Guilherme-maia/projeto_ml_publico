@@ -16,8 +16,10 @@ A baixo mostro passo a passo quais são as análises mínimas para a construçã
 ### Transformações das variáveis (Categoricas) <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
 - Função:
-> WOE
-> Dummies
+
+> get_woe_categoric.py
+
+> get_dummie.py
 
 
 ### Seleção de variáveis <font collor="#ff0000"> EM CONSTRUÇÃO </font>
