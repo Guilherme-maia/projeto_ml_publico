@@ -56,6 +56,12 @@ Objetivo: Identificar os tipos de variáveis que temos no banco da dados, esse �
 
 > LigthGBM
 
+### Alinhamento do Score (Modelo com Segmento)
+
+> alinhamento_de_score.py
+
+Essa função tem como objetivo alinhar as probabilidades dos score quando o modelo tem segmentação. Com essa fórmula garantimos que um indivíduo com um risco "X" que esta na segmento 1 tenha o mesmo valor de score de um outro indivíduo com o mesmo risco X que esta no segmento 2. Em resumo, independente do segmento que o indivíduo se encontre se ele tem o mesmo risco (probabidade de default) ele terá a mesma pontuação. 
+
 ### Comparação de técnicas <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
 > KS
