@@ -71,9 +71,11 @@ Essa função tem como objetivo alinhar as probabilidades dos score quando o mod
 
 > Redução de variáveis 
 
-### Estabilidade no tempo (variáveis finais) <font collor="#ff0000"> EM CONSTRUÇÃO </font>
+### Estabilidade no tempo (variáveis finais) 
 
-> Distribuição da variáveis no tempo
+> Distribuição das variáveis no tempo
+
+Essa função quebra as variáveis continuas em N categorias, essas mesmas categorias/quebras são aplicadas na base out-of-time (que não foi utilizada no modelo) e assim verificamos de forma gráfica se a distribuição das variáveis mudaram ou não ao longo do tempo.
 
 ### Interpretação de ML <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
