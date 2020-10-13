@@ -71,7 +71,7 @@ Essa função tem como objetivo alinhar as probabilidades dos score quando o mod
 
 > Redução de variáveis 
 
-### Estabilidade no tempo (variáveis finais) 
+### Estabilidade no tempo 
 
 > Distribuição das variáveis no tempo
 
