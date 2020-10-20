@@ -56,6 +56,12 @@ Objetivo: Identificar os tipos de variáveis que temos no banco da dados, esse �
 
 > LigthGBM
 
+### Alinhamento do Score (Modelo com Segmento)
+
+> alinhamento_de_score.py
+
+Essa função tem como objetivo alinhar as probabilidades dos score quando o modelo tem segmentação. Com essa fórmula garantimos que um indivíduo com um risco "X" que esta na segmento A tenha o mesmo valor de score de um outro indivíduo com o mesmo risco X que esta no segmento B. Em resumo, independente do segmento que os indivíduos se encontram caso eles tenham o mesmo risco (probabidade de default) ele terá a mesma pontuação de score. 
+
 ### Comparação de técnicas <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
 > KS
@@ -65,9 +71,11 @@ Objetivo: Identificar os tipos de variáveis que temos no banco da dados, esse �
 
 > Redução de variáveis 
 
-### Estabilidade no tempo (variáveis finais) <font collor="#ff0000"> EM CONSTRUÇÃO </font>
+### Estabilidade no tempo 
 
-> Distribuição da variáveis no tempo
+> Distribuição das variáveis no tempo
+
+Essa função quebra as variáveis continuas em N categorias, essas mesmas categorias/quebras são aplicadas na base out-of-time (que não foi utilizada no modelo) e assim verificamos de forma gráfica se a distribuição das variáveis mudaram ou não ao longo do tempo.
 
 ### Interpretação de ML <font collor="#ff0000"> EM CONSTRUÇÃO </font>
 
