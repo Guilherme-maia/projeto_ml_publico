@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import subprocess 
+import os
+
 def ajuste_metadados(dataframe): 
     
     '''
@@ -60,7 +65,7 @@ def ajuste_metadados(dataframe):
         dtype = dataframe[f].dtype
 
         # Criando a lista com todo metadados
-         f_dict = {'Variaveis': f, 
+        f_dict = {'Variaveis': f, 
                    'Role': role,
                    'Level': level,
                    'Keep': keep,
@@ -77,7 +82,7 @@ def ajuste_metadados(dataframe):
     for f in v:
         dist_values = dataframe[f].value_counts().shape[0]
         qtd_missing = dataframe[f].isnull().sum()
-         f_dict = {'Variaveis': f,
+        f_dict = {'Variaveis': f,
                    'Cardinality': dist_values,
                    'Qtd_Missing': qtd_missing
                  }

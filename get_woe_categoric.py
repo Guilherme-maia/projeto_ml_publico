@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import os
+import subprocess
+
 def get_woe_categoric(dataframe, target = 'target', name_missing = "missing"):
 
     bons = dataframe[target] == 0

@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import os
+import subprocess
+
 def get_dummie(dataframe, name_missing = 'missing', cardinality = 15, drop_first = False):
         
     #Pegando somente as categoricas
